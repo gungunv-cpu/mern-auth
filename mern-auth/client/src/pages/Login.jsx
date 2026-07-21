@@ -23,7 +23,7 @@ const handleLogin = async (e) => {
 
     alert(res.data.message);
 
-    navigate("/home");
+    navigate("/students");
 
   } catch (err) {
     alert(err.response?.data?.message || "Login Failed");
